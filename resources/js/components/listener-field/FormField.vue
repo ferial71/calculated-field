@@ -10,6 +10,7 @@
           :placeholder="field.name"
           :value="value | moneyFormat(field.numberFormat)"
           @input="setFieldAndMessage"
+          :readonly="1 == 1"
         />
 
         <div
